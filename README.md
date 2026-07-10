@@ -1,61 +1,86 @@
-# 🚀 Getting started with Strapi
+# Nischhal Strapi Blog Backend
 
-Strapi comes with a full featured [Command Line Interface](https://docs.strapi.io/dev-docs/cli) (CLI) which lets you scaffold and manage your project in seconds.
+A Strapi 5 backend template for managing blog posts, authors, media, and API-delivered content.
 
-### `develop`
+## Stack
 
-Start your Strapi application with autoReload enabled. [Learn more](https://docs.strapi.io/dev-docs/cli#strapi-develop)
+- Strapi `5.28.0`
+- Users and Permissions plugin
+- Strapi Cloud plugin
+- SQLite for local development
+- Node.js 18 through 22
 
+## Local development
+
+Install dependencies:
+
+```bash
+npm install
 ```
+
+Start Strapi with auto-reload:
+
+```bash
 npm run develop
-# or
-yarn develop
 ```
 
-### `start`
+Build the admin panel:
 
-Start your Strapi application with autoReload disabled. [Learn more](https://docs.strapi.io/dev-docs/cli#strapi-start)
-
-```
-npm run start
-# or
-yarn start
-```
-
-### `build`
-
-Build your admin panel. [Learn more](https://docs.strapi.io/dev-docs/cli#strapi-build)
-
-```
+```bash
 npm run build
-# or
-yarn build
 ```
 
-## ⚙️ Deployment
+Run in production mode:
 
-Strapi gives you many possible deployment options for your project including [Strapi Cloud](https://cloud.strapi.io). Browse the [deployment section of the documentation](https://docs.strapi.io/dev-docs/deployment) to find the best solution for your use case.
-
-```
-yarn strapi deploy
+```bash
+npm start
 ```
 
-## 📚 Learn more
+## Environment and secrets
 
-- [Resource center](https://strapi.io/resource-center) - Strapi resource center.
-- [Strapi documentation](https://docs.strapi.io) - Official Strapi documentation.
-- [Strapi tutorials](https://strapi.io/tutorials) - List of tutorials made by the core team and the community.
-- [Strapi blog](https://strapi.io/blog) - Official Strapi blog containing articles made by the Strapi team and the community.
-- [Changelog](https://strapi.io/changelog) - Find out about the Strapi product updates, new features and general improvements.
+Strapi requires environment-specific secrets and configuration. Never commit real values for:
 
-Feel free to check out the [Strapi GitHub repository](https://github.com/strapi/strapi). Your feedback and contributions are welcome!
+- application keys
+- API token salt
+- admin JWT secret
+- transfer token salt
+- JWT secret
+- cloud deployment tokens
+- database credentials
 
-## ✨ Community
+Keep local secrets in ignored environment files and configure production secrets through the deployment platform.
 
-- [Discord](https://discord.strapi.io) - Come chat with the Strapi community including the core team.
-- [Forum](https://forum.strapi.io/) - Place to discuss, ask questions and find answers, show your Strapi project and get feedback or just talk with other Community members.
-- [Awesome Strapi](https://github.com/strapi/awesome-strapi) - A curated list of awesome things related to Strapi.
+## Content model notes
 
----
+Before treating this as a finished CMS, document and review:
 
-<sub>🤫 Psst! [Strapi is hiring](https://strapi.io/careers).</sub>
+- post and author schemas
+- slug uniqueness
+- draft and publish behavior
+- media permissions
+- public API permissions
+- role-based access controls
+- input validation
+- deletion and editorial workflows
+
+## Seeding
+
+An example seed command is available:
+
+```bash
+npm run seed:example
+```
+
+Review the seed script before running it. Do not seed real personal information or copyrighted content without permission.
+
+## Deployment
+
+```bash
+npm run deploy
+```
+
+Confirm the target Strapi Cloud project and environment before deployment. A generated template is not automatically production-hardened merely because a cloud button exists. Humans remain involved, tragically.
+
+## Status
+
+This repository is a backend template and work in progress. It should not be described as a completed public blog platform until content models, permissions, backups, monitoring, and deployment configuration are verified.
