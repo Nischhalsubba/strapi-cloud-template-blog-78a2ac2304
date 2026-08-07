@@ -4,27 +4,27 @@
 
 # strapi-cloud-template-blog-78a2ac2304
 
-**Branch-aware technical guide for [`main`](https://github.com/Nischhalsubba/strapi-cloud-template-blog-78a2ac2304/tree/main)**
+**Branch-aware technical guide for [`agent/security-axios-lock`](https://github.com/Nischhalsubba/strapi-cloud-template-blog-78a2ac2304/tree/agent/security-axios-lock)**
 
-<p><img alt="branch: main" src="https://img.shields.io/static/v1?label=&message=branch%3A%20main&color=5965F2&style=flat-square"> <img alt="React" src="https://img.shields.io/static/v1?label=&message=React&color=24292F&style=flat-square"> <img alt="Strapi" src="https://img.shields.io/static/v1?label=&message=Strapi&color=24292F&style=flat-square"> <img alt="JavaScript" src="https://img.shields.io/static/v1?label=&message=JavaScript&color=24292F&style=flat-square"> <img alt="TypeScript" src="https://img.shields.io/static/v1?label=&message=TypeScript&color=24292F&style=flat-square"> <img alt="docs: branch-aware" src="https://img.shields.io/static/v1?label=&message=docs%3A%20branch-aware&color=8250DF&style=flat-square"></p>
+<p><img alt="branch: agent/security-axios-lock" src="https://img.shields.io/static/v1?label=&message=branch%3A%20agent%2Fsecurity-axios-lock&color=5965F2&style=flat-square"> <img alt="React" src="https://img.shields.io/static/v1?label=&message=React&color=24292F&style=flat-square"> <img alt="Strapi" src="https://img.shields.io/static/v1?label=&message=Strapi&color=24292F&style=flat-square"> <img alt="JavaScript" src="https://img.shields.io/static/v1?label=&message=JavaScript&color=24292F&style=flat-square"> <img alt="TypeScript" src="https://img.shields.io/static/v1?label=&message=TypeScript&color=24292F&style=flat-square"> <img alt="docs: branch-aware" src="https://img.shields.io/static/v1?label=&message=docs%3A%20branch-aware&color=8250DF&style=flat-square"></p>
 
 <p>
-  <a href="https://github.com/Nischhalsubba/strapi-cloud-template-blog-78a2ac2304/tree/main"><strong>Browse source</strong></a> ·
+  <a href="https://github.com/Nischhalsubba/strapi-cloud-template-blog-78a2ac2304/tree/agent/security-axios-lock"><strong>Browse source</strong></a> ·
   <a href="https://github.com/Nischhalsubba/strapi-cloud-template-blog-78a2ac2304/issues"><strong>Issues</strong></a> ·
-  <a href="https://github.com/Nischhalsubba/strapi-cloud-template-blog-78a2ac2304/codespaces/new?ref=main"><strong>Open in Codespaces</strong></a>
+  <a href="https://github.com/Nischhalsubba/strapi-cloud-template-blog-78a2ac2304/codespaces/new?ref=agent%2Fsecurity-axios-lock"><strong>Open in Codespaces</strong></a>
 </p>
 
 </div>
 
 > [!IMPORTANT]
-> This guide is generated from the files actually present on `main`. It links to detected source paths, preserves project-authored notes, and avoids claiming components that were not found.
+> This guide is generated from the files actually present on `agent/security-axios-lock`. It links to detected source paths, preserves project-authored notes, and avoids claiming components that were not found.
 
 ## At a glance
 
 | Item | Detected value |
 |---|---|
 | Purpose | A Strapi 5 blog backend template for managing posts, authors, media, and API content. |
-| Branch role | Default branch |
+| Branch role | Compared with `main` |
 | Stack | React, Strapi, JavaScript, TypeScript |
 | Manifests | package.json |
 | Prerequisites | Node.js |
@@ -33,7 +33,7 @@
 
 ## Branch scope
 
-This is the repository's default branch.
+No branch-specific file differences were detected against the default branch at generation time.
 
 
 
@@ -55,7 +55,7 @@ npm run build
 
 ```mermaid
 flowchart TD
-    ROOT["strapi-cloud-template-blog-78a2ac2304 / main"]
+    ROOT["strapi-cloud-template-blog-78a2ac2304 / agent/security-axios-lock"]
     ROOT --> P0[".github/"]
     ROOT --> P1["config/"]
     ROOT --> P2["data/"]
@@ -74,9 +74,9 @@ flowchart TD
 
 | Responsibility | Detected source paths |
 |---|---|
-| Interface | [`public`](https://github.com/Nischhalsubba/strapi-cloud-template-blog-78a2ac2304/tree/main/public), [`src`](https://github.com/Nischhalsubba/strapi-cloud-template-blog-78a2ac2304/tree/main/src) |
-| Data | [`database`](https://github.com/Nischhalsubba/strapi-cloud-template-blog-78a2ac2304/tree/main/database), [`data`](https://github.com/Nischhalsubba/strapi-cloud-template-blog-78a2ac2304/tree/main/data) |
-| Delivery | [`.github`](https://github.com/Nischhalsubba/strapi-cloud-template-blog-78a2ac2304/tree/main/.github), [`scripts`](https://github.com/Nischhalsubba/strapi-cloud-template-blog-78a2ac2304/tree/main/scripts) |
+| Interface | [`public`](https://github.com/Nischhalsubba/strapi-cloud-template-blog-78a2ac2304/tree/agent/security-axios-lock/public), [`src`](https://github.com/Nischhalsubba/strapi-cloud-template-blog-78a2ac2304/tree/agent/security-axios-lock/src) |
+| Data | [`database`](https://github.com/Nischhalsubba/strapi-cloud-template-blog-78a2ac2304/tree/agent/security-axios-lock/database), [`data`](https://github.com/Nischhalsubba/strapi-cloud-template-blog-78a2ac2304/tree/agent/security-axios-lock/data) |
+| Delivery | [`.github`](https://github.com/Nischhalsubba/strapi-cloud-template-blog-78a2ac2304/tree/agent/security-axios-lock/.github), [`scripts`](https://github.com/Nischhalsubba/strapi-cloud-template-blog-78a2ac2304/tree/agent/security-axios-lock/scripts) |
 
 ## Website or application map
 
@@ -115,7 +115,7 @@ sequenceDiagram
     I-->>U: Render success or error state
 ```
 
-Detected API or server areas: [`src/api`](https://github.com/Nischhalsubba/strapi-cloud-template-blog-78a2ac2304/tree/main/src/api).
+Detected API or server areas: [`src/api`](https://github.com/Nischhalsubba/strapi-cloud-template-blog-78a2ac2304/tree/agent/security-axios-lock/src/api).
 
 </details>
 <details>
@@ -130,7 +130,7 @@ flowchart LR
     VERIFY -->|failure| RECOVER["Error or recovery path"]
 ```
 
-Relevant detected files: [`src/api/author/services/author.js`](https://github.com/Nischhalsubba/strapi-cloud-template-blog-78a2ac2304/blob/main/src/api/author/services/author.js), [`src/api/author/routes/author.js`](https://github.com/Nischhalsubba/strapi-cloud-template-blog-78a2ac2304/blob/main/src/api/author/routes/author.js), [`src/api/author/content-types/author/schema.json`](https://github.com/Nischhalsubba/strapi-cloud-template-blog-78a2ac2304/blob/main/src/api/author/content-types/author/schema.json), [`src/api/author/controllers/author.js`](https://github.com/Nischhalsubba/strapi-cloud-template-blog-78a2ac2304/blob/main/src/api/author/controllers/author.js).
+Relevant detected files: [`src/api/author/services/author.js`](https://github.com/Nischhalsubba/strapi-cloud-template-blog-78a2ac2304/blob/agent/security-axios-lock/src/api/author/services/author.js), [`src/api/author/routes/author.js`](https://github.com/Nischhalsubba/strapi-cloud-template-blog-78a2ac2304/blob/agent/security-axios-lock/src/api/author/routes/author.js), [`src/api/author/content-types/author/schema.json`](https://github.com/Nischhalsubba/strapi-cloud-template-blog-78a2ac2304/blob/agent/security-axios-lock/src/api/author/content-types/author/schema.json), [`src/api/author/controllers/author.js`](https://github.com/Nischhalsubba/strapi-cloud-template-blog-78a2ac2304/blob/agent/security-axios-lock/src/api/author/controllers/author.js).
 
 > The diagram expresses the responsibility sequence only. Confirm exact providers, token formats, roles, and recovery behavior in the linked source.
 
@@ -147,7 +147,7 @@ flowchart LR
     READ --> OUTPUT["UI, API, report, or export"]
 ```
 
-Detected data areas: [`database`](https://github.com/Nischhalsubba/strapi-cloud-template-blog-78a2ac2304/tree/main/database), [`data`](https://github.com/Nischhalsubba/strapi-cloud-template-blog-78a2ac2304/tree/main/data), [`config/database.js`](https://github.com/Nischhalsubba/strapi-cloud-template-blog-78a2ac2304/blob/main/config/database.js), [`database/migrations/.gitkeep`](https://github.com/Nischhalsubba/strapi-cloud-template-blog-78a2ac2304/blob/main/database/migrations/.gitkeep).
+Detected data areas: [`database`](https://github.com/Nischhalsubba/strapi-cloud-template-blog-78a2ac2304/tree/agent/security-axios-lock/database), [`data`](https://github.com/Nischhalsubba/strapi-cloud-template-blog-78a2ac2304/tree/agent/security-axios-lock/data), [`config/database.js`](https://github.com/Nischhalsubba/strapi-cloud-template-blog-78a2ac2304/blob/agent/security-axios-lock/config/database.js), [`database/migrations/.gitkeep`](https://github.com/Nischhalsubba/strapi-cloud-template-blog-78a2ac2304/blob/agent/security-axios-lock/database/migrations/.gitkeep).
 
 </details>
 
@@ -191,7 +191,7 @@ Define useful logs, metrics, traces, alerts, and rollback signals for production
 
 ```mermaid
 flowchart LR
-    CHANGE["Change on main"] --> CHECK["Tests and quality checks"]
+    CHANGE["Change on agent/security-axios-lock"] --> CHECK["Tests and quality checks"]
     CHECK --> REVIEW["Review architecture and documentation impact"]
     REVIEW --> BUILD["Build or package"]
     BUILD --> DEPLOY["Deploy or release"]
@@ -200,7 +200,7 @@ flowchart LR
 
 ### Automation detected
 
-- [`.github/workflows/apply-interactive-readme.yml`](https://github.com/Nischhalsubba/strapi-cloud-template-blog-78a2ac2304/blob/main/.github/workflows/apply-interactive-readme.yml)
+- [`.github/workflows/apply-interactive-readme.yml`](https://github.com/Nischhalsubba/strapi-cloud-template-blog-78a2ac2304/blob/agent/security-axios-lock/.github/workflows/apply-interactive-readme.yml)
 
 ## Contribution flow
 
@@ -225,7 +225,7 @@ flowchart LR
 | Topic | Source |
 |---|---|
 | Repository | [`Nischhalsubba/strapi-cloud-template-blog-78a2ac2304`](https://github.com/Nischhalsubba/strapi-cloud-template-blog-78a2ac2304) |
-| Branch | [`main`](https://github.com/Nischhalsubba/strapi-cloud-template-blog-78a2ac2304/tree/main) |
+| Branch | [`agent/security-axios-lock`](https://github.com/Nischhalsubba/strapi-cloud-template-blog-78a2ac2304/tree/agent/security-axios-lock) |
 | Ownership | No CODEOWNERS file detected |
 | Contributing | Use the contribution flow above |
 | Support | [Open or review issues](https://github.com/Nischhalsubba/strapi-cloud-template-blog-78a2ac2304/issues) |
